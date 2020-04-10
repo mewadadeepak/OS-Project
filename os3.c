@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-    int bt[25],p[25],wt[25],tat[25],pr[25],i,j,n,total=0,pos,temp,avg_wt,avg_tat;
+    int bt[25],p[20],wt[25],tat[20],pr[25],i,j,n,total=0,pos,temp,avg_wt,avg_tat;
     printf("\nEnter Total Number of Process");
     scanf("%d",&n);
     printf("\nEnter Burst Time and Priority\n");
